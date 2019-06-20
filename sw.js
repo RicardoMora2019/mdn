@@ -3,24 +3,24 @@ self.importScripts('data/games.js');
 // Files to cache
 var cacheName = 'js13kPWA-v1';
 var appShellFiles = [
-  '/pwa-examples/js13kpwa/',
-  '/pwa-examples/js13kpwa/index.html',
-  '/pwa-examples/js13kpwa/app.js',
-  '/pwa-examples/js13kpwa/style.css',
-  '/pwa-examples/js13kpwa/fonts/graduate.eot',
-  '/pwa-examples/js13kpwa/fonts/graduate.ttf',
-  '/pwa-examples/js13kpwa/fonts/graduate.woff',
-  '/pwa-examples/js13kpwa/favicon.ico',
-  '/pwa-examples/js13kpwa/img/js13kgames.png',
-  '/pwa-examples/js13kpwa/img/bg.png',
-  '/pwa-examples/js13kpwa/icons/icon-32.png',
-  '/pwa-examples/js13kpwa/icons/icon-64.png',
-  '/pwa-examples/js13kpwa/icons/icon-96.png',
-  '/pwa-examples/js13kpwa/icons/icon-128.png',
-  '/pwa-examples/js13kpwa/icons/icon-168.png',
-  '/pwa-examples/js13kpwa/icons/icon-192.png',
-  '/pwa-examples/js13kpwa/icons/icon-256.png',
-  '/pwa-examples/js13kpwa/icons/icon-512.png'
+  '/mdn/',
+  '/mdn/index.html',
+  '/mdn/app.js',
+  '/mdn/style.css',
+  '/mdn/fonts/graduate.eot',
+  '/mdn/fonts/graduate.ttf',
+  '/mdn/fonts/graduate.woff',
+  '/mdn/favicon.ico',
+  '/mdn/img/js13kgames.png',
+  '/mdn/img/bg.png',
+  '/mdn/icons/icon-32.png',
+  '/mdn/icons/icon-64.png',
+  '/mdn/icons/icon-96.png',
+  '/mdn/icons/icon-128.png',
+  '/mdn/icons/icon-168.png',
+  '/mdn/icons/icon-192.png',
+  '/mdn/icons/icon-256.png',
+  '/mdn/icons/icon-512.png'
 ];
 var gamesImages = [];
 for(var i=0; i<games.length; i++) {
