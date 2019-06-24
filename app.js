@@ -1,5 +1,5 @@
 // Generating content based on the template
-var template = "<article>\n\
+/*var template = "<article>\n\
 	<img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>\n\
 	<h3>#POS. NAME</h3>\n\
 	<ul>\n\
@@ -23,7 +23,7 @@ for(var i=0; i<games.length; i++) {
 	content += entry;
 };
 document.getElementById('content').innerHTML = content;
-
+*/
 // Registering Service Worker
 if('serviceWorker' in navigator) {
 	navigator.serviceWorker.register('/mdn/sw.js');
